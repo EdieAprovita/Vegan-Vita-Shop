@@ -11,29 +11,34 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          title: 'quesos',
+          imageUrl:
+            'https://i.pinimg.com/originals/32/da/45/32da45256c05ba0da4bef7df7c7f6a7e.jpg',
           id: 1,
         },
         {
-          title: 'jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          title: 'postres',
+          imageUrl:
+            'https://static3.laverdad.es/www/multimedia/201709/08/media/cortadas/VEGAN-kWeE-U40740164562FHB-624x385@La%20Verdad.jpg',
           id: 2,
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          title: 'aderezos',
+          imageUrl:
+            'https://www.vegaffinity.com/comunidad/imagenes/articles/7671487072590.png',
           id: 3,
         },
         {
-          title: 'womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          title: 'nueces y semillas',
+          imageUrl:
+            'https://i2.wp.com/comedores-industriales.com.mx/wp-content/uploads/2019/05/granel.jpg?fit=820%2C513&ssl=1',
           size: 'large',
           id: 4,
         },
         {
-          title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          title: 'mermeladas',
+          imageUrl:
+            'https://i2.wp.com/goula.lat/wp-content/uploads/2019/11/mermeladas-artesanales-e1572901290188.jpg?fit=2048%2C1153&ssl=1',
           size: 'large',
           id: 5,
         },
