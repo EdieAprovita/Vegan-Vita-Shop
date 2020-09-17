@@ -1,14 +1,8 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 1.6rems;
   font-family: 'Open Sans Condensed';
-  padding: 2rem 4rem;
+  padding: 2rem 6rem;
 }
