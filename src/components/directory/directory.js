@@ -22,14 +22,14 @@ class Directory extends React.Component {
           imageUrl:
             'https://static3.laverdad.es/www/multimedia/201709/08/media/cortadas/VEGAN-kWeE-U40740164562FHB-624x385@La%20Verdad.jpg',
           id: 2,
-          linkUrl: 'postres',
+          linkUrl: '',
         },
         {
           title: 'aderezos',
           imageUrl:
             'https://www.vegaffinity.com/comunidad/imagenes/articles/7671487072590.png',
           id: 3,
-          linkUrl: 'aderezos',
+          linkUrl: '',
         },
         {
           title: 'nueces y semillas',
@@ -37,7 +37,7 @@ class Directory extends React.Component {
             'https://i2.wp.com/comedores-industriales.com.mx/wp-content/uploads/2019/05/granel.jpg?fit=820%2C513&ssl=1',
           size: 'large',
           id: 4,
-          linkUrl: 'nuecesysemillas',
+          linkUrl: '',
         },
         {
           title: 'mermeladas',
@@ -45,15 +45,15 @@ class Directory extends React.Component {
             'https://i2.wp.com/goula.lat/wp-content/uploads/2019/11/mermeladas-artesanales-e1572901290188.jpg?fit=2048%2C1153&ssl=1',
           size: 'large',
           id: 5,
-          linkUrl: 'mermeladas',
+          linkUrl: '',
         },
         {
           title: 'tejidos de tela',
           imageUrl:
             'https://cdn.colombia.com/sdi/2019/05/03/el-placer-de-hacer-ganchillo-tejido-733140.jpg',
-          size: 'large',
-          id: 5,
-          linkUrl: 'telas',
+
+          id: 6,
+          linkUrl: '',
         },
       ],
     };
@@ -62,8 +62,8 @@ class Directory extends React.Component {
   render() {
     return (
       <div className='directory-menu'>
-        {this.state.sections.map(({ title, imageUrl, id, size }) => (
-          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+          <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div>
     );
