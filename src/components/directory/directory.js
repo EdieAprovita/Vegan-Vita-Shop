@@ -51,7 +51,7 @@ class Directory extends React.Component {
           title: 'tejidos de tela',
           imageUrl:
             'https://cdn.colombia.com/sdi/2019/05/03/el-placer-de-hacer-ganchillo-tejido-733140.jpg',
-
+            size:"large",
           id: 6,
           linkUrl: '',
         },
