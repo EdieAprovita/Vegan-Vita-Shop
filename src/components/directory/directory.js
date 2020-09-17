@@ -15,18 +15,21 @@ class Directory extends React.Component {
           imageUrl:
             'https://i.pinimg.com/originals/32/da/45/32da45256c05ba0da4bef7df7c7f6a7e.jpg',
           id: 1,
+          linkUrl: 'quesos',
         },
         {
           title: 'postres',
           imageUrl:
             'https://static3.laverdad.es/www/multimedia/201709/08/media/cortadas/VEGAN-kWeE-U40740164562FHB-624x385@La%20Verdad.jpg',
           id: 2,
+          linkUrl: 'postres',
         },
         {
           title: 'aderezos',
           imageUrl:
             'https://www.vegaffinity.com/comunidad/imagenes/articles/7671487072590.png',
           id: 3,
+          linkUrl: 'aderezos',
         },
         {
           title: 'nueces y semillas',
@@ -34,6 +37,7 @@ class Directory extends React.Component {
             'https://i2.wp.com/comedores-industriales.com.mx/wp-content/uploads/2019/05/granel.jpg?fit=820%2C513&ssl=1',
           size: 'large',
           id: 4,
+          linkUrl: 'nuecesysemillas',
         },
         {
           title: 'mermeladas',
@@ -41,6 +45,15 @@ class Directory extends React.Component {
             'https://i2.wp.com/goula.lat/wp-content/uploads/2019/11/mermeladas-artesanales-e1572901290188.jpg?fit=2048%2C1153&ssl=1',
           size: 'large',
           id: 5,
+          linkUrl: 'mermeladas',
+        },
+        {
+          title: 'tejidos de tela',
+          imageUrl:
+            'https://cdn.colombia.com/sdi/2019/05/03/el-placer-de-hacer-ganchillo-tejido-733140.jpg',
+          size: 'large',
+          id: 5,
+          linkUrl: 'telas',
         },
       ],
     };
