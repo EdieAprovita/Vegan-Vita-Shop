@@ -1,14 +1,13 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body {
+  font-family: 'Open Sans Condensed';
+  padding: 20px 40px;
 }
 
-html {
-  font-size: 62.5%;
+a {
+  text-decoration: none;
+  color: black;
 }
-body {
-  font-size: 1.9rems;
-  font-family: 'Open Sans Condensed';
-  padding: 2rem 6rem;
+
+* {
+  box-sizing: border-box;
 }
