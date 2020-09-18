@@ -7,6 +7,7 @@ import Homepage from './pages/homepage';
 import ShopPage from './pages/shop/shop';
 import Header from './components/header/header';
 import SignInAndSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up"
+import {auth} from "./firebase/firebase.utils"
 
 function App() {
   return (
