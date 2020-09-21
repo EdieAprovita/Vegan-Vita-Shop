@@ -15,7 +15,7 @@ class Directory extends React.Component {
           imageUrl:
             'https://i.pinimg.com/originals/32/da/45/32da45256c05ba0da4bef7df7c7f6a7e.jpg',
           id: 1,
-          linkUrl: 'hats',
+          linkUrl: 'quesos',
         },
         {
           title: 'mmermeladas',
